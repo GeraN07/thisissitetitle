@@ -1,0 +1,4 @@
+dist/*.css
+src/assets/**/*.css
+src/assets/svg/*.svg
+node_modules/

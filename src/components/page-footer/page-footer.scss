@@ -1,0 +1,79 @@
+.page-footer {
+    position: relative;
+    background: #00468533;
+    height: 123.5px;
+    margin-top: 49px;
+    width: 100%;
+}
+
+.page-footer__wrapper {
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.page-footer__company-legal {
+    font-family: Opensans-SemiBold, sans-serif;
+    color: #000;
+    font-size: 16px;
+    line-height: 22px;
+    width: 287px;
+    margin-top: 40px;
+    margin-bottom: 39.5;
+    margin-left: 32px;
+    word-wrap: wrap;
+}
+
+.page-footer__security-logo {
+    background-image: url('./assets/img/comodossl-trustlogo2.png');
+    width: 79px;
+    height: 52px;
+    margin-top: 32px;
+    margin-bottom: 39.5px;
+    margin-right: 36px;
+}
+
+.page-footer__company-legal .company {
+    display: block;
+}
+
+@media (max-width: 799px) {
+    .page-footer__company-legal .company {
+        display: inline;
+    }
+
+    .page-footer {
+        margin-top: 0;
+    }
+
+    .page-footer__wrapper {
+        flex-direction: column;
+        width: auto;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .page-footer__company-legal {
+        font-size: 12px;
+        margin: 0;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        width: auto;
+    }
+
+    .page-footer__security-logo {
+        margin: 0;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 17px;
+    }
+}
+
+@media (max-width: 326px) {
+    .page-footer__security-logo {
+        margin-top: 5.5px;
+    }
+}

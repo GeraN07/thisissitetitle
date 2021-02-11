@@ -1,0 +1,30 @@
+@font-face {
+    font-family: Opensans-Bold;
+    src: url("../src/assets/fonts/OpenSans-Bold.woff") format("truetype");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: Opensans-Regular;
+    src: url("../src/assets/fonts/OpenSans-Regular.woff") format("truetype");
+}
+
+@font-face {
+    font-family: Opensans-SemiBold;
+    src: url("../src/assets/fonts/OpenSans-SemiBold.woff") format("truetype");
+}
+
+@import "./components/page-header/page-header.scss";
+@import "./components/page-footer/page-footer.scss";
+@import "./pages/main-page.scss";
+
+html {
+    scroll-behavior: smooth;
+}
+
+button:active,
+button:focus,
+input:active,
+input:focus {
+    outline: none;
+}
